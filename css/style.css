@@ -135,3 +135,63 @@ h3{
 .footer-copyright {
     width: 34%; 
 }
+.filter {
+    width: 100%;
+    background-color: #faebd7;
+}
+.infrastructure {
+    box-sizing: border-box;
+    width: 20%;
+    float: left;
+    margin: 0;
+}
+.house-type {
+    box-sizing: border-box;
+    width: 40%; 
+    float: left;
+    margin: 0;
+    
+}
+.cost-form {
+    box-sizing: border-box;
+    float: right;
+    width: 40%;
+    margin: 0;
+}
+.search-result {
+  width: 100%;
+  background-color: #f0ffff; 
+  height: 86px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.search-result-found,
+.search-result-arrows {
+  width: 20%; 
+  float: left;
+  outline: 2px dotted #a52a2a;
+}
+.search-result-sorting {
+    width: 60%;
+    float: left;
+    outline: 2px dotted #008000;
+}
+.hotel {
+    width: 100%; 
+    border-bottom: 1px solid #e5e5e5;
+}
+.hotel-image,
+.hotel-rating {
+    width: 20%;
+    float: left;
+}
+.hotel-image img {
+  width: 135px;
+  height: 90px;
+}
+.hotel-description {
+    width: 60%;
+    float: left;
+}
+
+
+

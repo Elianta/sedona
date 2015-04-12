@@ -7,7 +7,7 @@
   </head>
   <body>
     <!-- Header with navigation started -->
-    <header class="main-header">
+    <header class="rubber-site">
       <nav class="main-navigation">
         <ul>
           <li class="active">
@@ -33,30 +33,31 @@
     <!-- Header finished -->
     
     <!-- Filter started -->
-    <div class="filter">
+    <div class="rubber-site">
+    <div class="filter clearfix">
       <form action="" name="filter">
           <fieldset class="infrastructure">
             <legend>Инфраструктура</legend>
             <label>
               <input type="checkbox" name="pool" id="">Бассейн
+            </label><br>
+            <label>
+              <input type="checkbox" name="parking" id="">Парковка<br>
             </label>
             <label>
-              <input type="checkbox" name="parking" id="">Парковка
-            </label>
-            <label>
-              <input type="checkbox" name="wifi" id="">Wi-fi
+              <input type="checkbox" name="wifi" id="">Wi-fi<br>
             </label>
           </fieldset>
           <fieldset class="house-type">
             <legend>Тип жилья</legend>
             <label>
-              <input type="checkbox" name="hotel" id="">Гостиница
+              <input type="checkbox" name="hotel" id="">Гостиница<br>
             </label>
             <label>
-              <input type="checkbox" name="motel" id="">Мотель
+              <input type="checkbox" name="motel" id="">Мотель<br>
             </label>
             <label>
-              <input type="checkbox" name="apartments" id="">Апартаменты
+              <input type="checkbox" name="apartments" id="">Апартаменты<br>
             </label>
           </fieldset>
           <fieldset class="cost-form">
@@ -73,17 +74,17 @@
     <!-- Filter finished -->
     
     <!-- Founded hotels sorting: start -->
-    <div class="search-result">
-      <div>
+    <div class="search-result clearfix">
+      <div class="search-result-found">
         <p>Найдено: 3</p>
       </div>
-      <div>
+      <div class="search-result-sorting">
         <span>Сортировка:</span>
         <a href="#" class="active">по цене</a>
         <a href="#">по типу</a>
         <a href="#">по рейтингу</a>
       </div>
-      <div class="result-arrows">
+      <div class="search-result-arrows">
         <a href="#" alt="up-arrow" class="up"></a>
         <a href="#" alt="down-arrow" class="down"></a>
       </div>
@@ -91,8 +92,10 @@
     <!-- Founded hotels sorting: finish -->
     
     <!-- Found hotels with pictures and discriptions: start -->
-    <article class="hotel">
-      <img class="hotel-image" src="img/hotel-1.jpg" alt="Гостиница Amara Resort & Spa" width="135" height="90">
+    <article class="hotel clearfix">
+      <div class="hotel-image">
+      <img src="img/hotel-1.jpg" alt="Гостиница Amara Resort & Spa">
+      </div>
       <div class="hotel-description">
         <h1>Amara Resort &amp; Spa</h1>
         <div>
@@ -110,8 +113,10 @@
       </div>
     </article>
     
-    <article class="hotel">
-      <img class="hotel-image" src="img/hotel-2.jpg" alt=" МОТЕЛЬ DESERT QUAIL INN" width="135" height="90">
+    <article class="hotel clearfix">
+      <div class="hotel-image">
+      <img src="img/hotel-2.jpg" alt=" МОТЕЛЬ DESERT QUAIL INN">
+      </div>
       <div class="hotel-description">
         <h1>Desert Quail Inn</h1>
         <div>
@@ -129,8 +134,10 @@
       </div>
     </article>
     
-    <article class="hotel">
-      <img class="hotel-image" src="img/hotel-3.jpg" alt="Апартаменты Villas At Poco Diablo" width="135" height="90">
+    <article class="hotel clearfix">
+      <div class="hotel-image">
+      <img src="img/hotel-3.jpg" alt="Апартаменты Villas At Poco Diablo">
+      </div>
       <div class="hotel-description">
         <h1>Villas At Poco Diablo</h1>
         <div>
@@ -147,10 +154,11 @@
         <p>Рейтинг:9,2</p>
       </div>
     </article>
+  </div>
     <!-- Found hotels with pictures and discriptions: finish -->
     
     <!-- Footer started -->
-    <footer class="main-footer clearfix">
+    <footer class="main-footer rubber-site clearfix">
       <div class="footer-hashtag">
         <h2>#VISITSEDONA</h2>
       </div>
@@ -160,7 +168,7 @@
         <a href="#" class="social-btn social-btn-yt"></a>
       </div>
       <div class="footer-copyright">
-        <span>Website by</span>
+        <span>WEBSITE BY</span>
         <a href="#">
           <img src="img/copyright.png" alt="html academy copyright" width="135" height="33">
         </a>
