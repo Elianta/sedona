@@ -17,8 +17,8 @@
             <a href="#">Фото и видео</a>
           </li>
           <li>
-            <a href="#">
-              <img class="logo" src="img/logo.png" alt="logo 'city of Sedona'" width="138" height="70">
+            <a class="logo" href="#">
+              <img src="img/logo.png" alt="logo 'city of Sedona'" width="138" height="70">
             </a>
           </li>
           <li>
@@ -75,102 +75,101 @@
     
     <!-- Founded hotels sorting: start -->
     <div class="search-result clearfix">
-      <div class="search-result-found">
-        <p>Найдено: 3</p>
+      <div class="search-result-found col-left">
+        <span class="found">Найдено: 3</span>
       </div>
-      <div class="search-result-sorting">
+      <div class="search-result-sorting col-left">
         <span>Сортировка:</span>
         <a href="#" class="active">по цене</a>
         <a href="#">по типу</a>
         <a href="#">по рейтингу</a>
       </div>
-      <div class="search-result-arrows">
-        <a href="#" alt="up-arrow" class="up"></a>
-        <a href="#" alt="down-arrow" class="down"></a>
+      <div class="search-result-arrows col-right">
+        <a href="#" alt="up-arrow"><i class="icon-up-dir"></i></a>
+        <a href="#" alt="down-arrow" class="active"> <i class="icon-down-dir"></i></a>
       </div>
     </div>
     <!-- Founded hotels sorting: finish -->
     
     <!-- Found hotels with pictures and discriptions: start -->
     <article class="hotel clearfix">
-      <div class="hotel-image">
-      <img src="img/hotel-1.jpg" alt="Гостиница Amara Resort & Spa">
+      <div class="hotel-image col-20 col-left">
+          <img src="img/hotel-1.jpg" alt="Гостиница Amara Resort & Spa">
       </div>
-      <div class="hotel-description">
-        <h1>Amara Resort &amp; Spa</h1>
-        <div>
-          <p>Гостиница</p>
+      <div class="hotel-description col-60 col-left">
+        <a class="title" href="#">Amara Resort &amp; Spa</a>
+        <div class="block col-left">
+          <span>Гостиница</span>
           <a href="#" class="hotel-more">Подробнее</a>
         </div>
-        <div>
-          <p>От 3500 р.</p>
+        <div class="block col-left">
+          <span>От 3500 р.</span>
           <a href="#" class="hotel-reserve">Забронировать</a>
         </div>
       </div>
-      <div class="hotel-rating">
-        <div class="rating-stars"></div>
-        <p>Рейтинг:8,5</p>
+      <div class="hotel-rating col-20 col-left">
+        <div class="rating-stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></div>
+        <span>Рейтинг: 8,5</span>
       </div>
     </article>
     
     <article class="hotel clearfix">
-      <div class="hotel-image">
+      <div class="hotel-image col-20 col-left">
       <img src="img/hotel-2.jpg" alt=" МОТЕЛЬ DESERT QUAIL INN">
       </div>
-      <div class="hotel-description">
-        <h1>Desert Quail Inn</h1>
-        <div>
-          <p>Мотель</p>
+      <div class="hotel-description col-60 col-left">
+        <a class="title" href="#">Desert Quail Inn</a>
+        <div class="block col-left">
+          <span>Мотель</span>
           <a href="#" class="hotel-more">Подробнее</a>
         </div>
-        <div>
-          <p>От 2000 р.</p>
+        <div class="block col-left">
+          <span>От 2000 р.</span>
           <a href="#" class="hotel-reserve">Забронировать</a>
         </div>
       </div>
-      <div class="hotel-rating">
-        <div class="rating-stars"></div>
-        <p>Рейтинг:8,9</p>
+      <div class="hotel-rating col-20 col-left">
+        <div class="rating-stars"><i class="icon-star"></i><i class="icon-star"></i></div>
+        <span>Рейтинг: 8,9</span>
       </div>
     </article>
     
     <article class="hotel clearfix">
-      <div class="hotel-image">
+      <div class="hotel-image col-20 col-left">
       <img src="img/hotel-3.jpg" alt="Апартаменты Villas At Poco Diablo">
       </div>
-      <div class="hotel-description">
-        <h1>Villas At Poco Diablo</h1>
-        <div>
-          <p>Апартаменты</p>
+      <div class="hotel-description col-60 col-left">
+        <a class="title" href="#">Villas At Poco Diablo</a>
+        <div class="block col-left">
+          <span>Апартаменты</span>
           <a href="#" class="hotel-more">Подробнее</a>
         </div>
-        <div>
-          <p>От 4000 р.</p>
+        <div class="block col-left">
+          <span>От 4000 р.</span>
           <a href="#" class="hotel-reserve">Забронировать</a>
         </div>
       </div>
-      <div class="hotel-rating">
-        <div class="rating-stars"></div>
-        <p>Рейтинг:9,2</p>
+      <div class="hotel-rating col-20 col-left">
+        <div class="rating-stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></div>
+        <span>Рейтинг: 9,2</span>
       </div>
     </article>
   </div>
     <!-- Found hotels with pictures and discriptions: finish -->
     
     <!-- Footer started -->
-    <footer class="rubber-site main-footer clearfix">
-      <div class="footer-hashtag">
+    <footer class="main-footer rubber-site clearfix">
+      <div class="footer-hashtag col-33 col-left">
         <h2>#VISITSEDONA</h2>
       </div>
-      <div class="footer-social">
-        <a href="#" class="social-btn social-btn-tw"></a>
-        <a href="#" class="social-btn social-btn-fb"></a>
-        <a href="#" class="social-btn social-btn-yt"></a>
+      <div class="footer-social col-33 col-left">
+        <a href="#" class="social-btn social-btn-tw "><i class="icon-twitter"></i></a>
+        <a href="#" class="social-btn social-btn-fb"><i class="icon-facebook"></i></a>
+        <a href="#" class="social-btn social-btn-yt"><i class="icon-youtube"></i></a>
       </div>
-      <div class="footer-copyright">
+      <div class="footer-copyright col-33 col-right">
         <span>WEBSITE BY</span>
-        <a href="#">
-          <img src="img/copyright.png" alt="html academy copyright" width="135" height="33">
+        <a class ="copyright" href="#">
         </a>
       </div>
     </footer>
