@@ -3,14 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Седона</title>
-    <link href="css/style.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   
   
   <body>
     <!-- Header with navigation started -->
-    <header class="rubber-site">
-      <nav class="main-navigation">
+    <header class="rubber-site clearfix">
+      <nav class="main-navigation ">
         <ul>
           <li class="active">
             <a href="#">Информация</a>
@@ -19,8 +21,8 @@
             <a href="#">Фото и видео</a>
           </li>
           <li>
-            <a href="#">
-              <img class="logo" src="img/logo.png" alt="logo 'city of Sedona'" width="138" height="70">
+            <a class="logo" href="#">
+              <img src="img/logo.png" alt="logo 'city of Sedona'" width="138" height="70">
             </a>
           </li>
           <li>
@@ -37,13 +39,13 @@
   <!-- Main content of page started -->
     <div class="rubber-site">
       <div class="welcome-screen">
-        <div class="welcom-part">
+        <div class="welcome-part-1">
           <img src="img/welcome.png" alt="Welcome to the gorgeous" width="256" height="86">
         </div>
-        <div>
+        <div class="welcome-part-2">
           <img src="img/sedona.png" alt="sedona" width="458" height="78">
         </div>
-        <div class="welcome-part">
+        <div class="welcome-part-3">
           <img src="img/grand-canyon-sucks.png" alt="Because the Grand Canyon sucks" width="296" height="80">
         </div>
       </div>
@@ -54,56 +56,60 @@
       </div>
     
       <section class="reason clearfix">
-        <div class="reason-description">
-          <h2>Настоящий <br>городок</h2>
+        <div class="reason-description col-33 col-left">
+          <h2>Настоящий<br>городок</h2>
           <p>- №1 -</p>
-          <p>Седона не атракцион для туристов, <br>там течет своя жизнь</p>
+          <p>Седона не атракцион для туристов, там течет своя жизнь</p>
         </div>
-        <div class="reason-image-right"></div>
+        <div class="reason-image col-66 col-right">
+            <img src="img/city-768.jpg" alt="Sedona city">
+        </div>
       </section>
     
     <section class="features-row clearfix">
-      <div class="feature-item">
-        <div class="icon icon-house"></div>
+      <div class="feature-item col-33 col-left">
+        <div class="feature-icon icon-house"></div>
         <h2>Жилье</h2>
         <p>Рекомендуем пожить в настоящем мотеле, <br>все как в кино!</p>
       </div>
-      <div class="feature-item">
-        <div class="icon icon-food"></div>
+      <div class="feature-item col-33 col-left">
+        <div class="feature-icon icon-food"></div>
         <h2>Еда</h2>
         <p>Всегда заказывайте фирменный бергер, <br>вы не разочаруетесь!</p>
       </div>
-      <div class="feature-item">
-        <div class="icon icon-souvenir"></div>
+      <div class="feature-item col-33 col-left">
+        <div class="feature-icon icon-souvenir"></div>
         <h2>Сувениры</h2>
         <p>Не только китайского, <br>но и местного производства!</p>
       </div>
     </section>
     
     <section class="reason clearfix">
-      <div class="reason-image-left"></div>
-      <div class="reason-description">
+      <div class="reason-image col-66 col-left">
+            <img src="img/bridge-768.jpg" alt="Devil's bridge">
+      </div>
+      <div class="reason-description col-33 col-right">
         <h2>Там есть <br>мост дьявола</h2>
         <p>- №2 -</p>
-        <p>Да, по нему можно пройти!<br> Если конечно вы осмелитесь</p>
+        <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
       </div>
     </section>
     
-    <section class="reason clearfix">
-      <div class="reason-description">
+    <section class="reason-light clearfix">
+      <div class="reason-description col-33 col-left">
         <h2>Небольшая <br>площадь</h2>
         <p>- №3 -</p>
         <p>Все достопримеча-<br>тельности находятся очень близко</p>
       </div>
-      <div class="reason-description">
+      <div class="reason-description col-33 col-left">
         <h2>Красивая <br>дорога</h2>
         <p>- №4 -</p>
-        <p>Ехать в Седону из Лас-Вегаса совсем <br>не скучно!</p>
+        <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
       </div>
-      <div class="reason-description">
+      <div class="reason-description col-33 col-left">
         <h2>Мало <br>туристов</h2>
         <p>- №5 -</p>
-        <p>Большинство едет в Гранд Каньон и <br>толпится там</p>
+        <p>Большинство едет в Гранд Каньон и толпится там</p>
       </div>
     </section>
     
@@ -113,24 +119,25 @@
       <a href="#" class="btn-to-search">Поиск гостиницы в Седоне</a>
     </section>
     
-    <div class="map"></div>
+    <div class="map" id="map-canvas"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+     <script src="js/map.js"></script>
     </div>
   <!-- Main content of page finished -->
   
   <!-- Footer started -->
     <footer class="main-footer rubber-site clearfix">
-      <div class="footer-hashtag">
+      <div class="footer-hashtag col-33 col-left">
         <h2>#VISITSEDONA</h2>
       </div>
-      <div class="footer-social">
-        <a href="#" class="social-btn social-btn-tw"></a>
-        <a href="#" class="social-btn social-btn-fb"></a>
-        <a href="#" class="social-btn social-btn-yt"></a>
+      <div class="footer-social col-33 col-left">
+        <a href="#" class="social-btn social-btn-tw "><i class="icon-twitter"></i></a>
+        <a href="#" class="social-btn social-btn-fb"><i class="icon-facebook"></i></a>
+        <a href="#" class="social-btn social-btn-yt"><i class="icon-youtube"></i></a>
       </div>
-      <div class="footer-copyright">
+      <div class="footer-copyright col-33 col-right">
         <span>WEBSITE BY</span>
-        <a href="#">
-          <img src="img/copyright.png" alt="html academy copyright" width="135" height="33">
+        <a class ="copyright" href="#">
         </a>
       </div>
     </footer>
