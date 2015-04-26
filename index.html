@@ -5,7 +5,8 @@
     <title>Седона</title>
     
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.min.css">
   </head>
   
   
@@ -20,18 +21,17 @@
           <li>
             <a href="#">Фото и видео</a>
           </li>
-          <li>
-            <a class="logo" href="#">
-              <img src="img/logo.png" alt="logo 'city of Sedona'" width="138" height="70">
-            </a>
-          </li>
+          <li> </li>
           <li>
             <a href="#">Карта штата</a>
           </li>
           <li>
-            <a href="#">Гостиницы</a>
+            <a href="hotels.html">Гостиницы</a>
           </li>
         </ul>
+        <a class="logo" href="index.html">
+            <img src="img/logo.png" alt="logo 'city of Sedona'" width="138" height="70">
+        </a>
       </nav>
     </header>
     <!-- Header finished -->  
@@ -51,79 +51,79 @@
       </div>
     
       <div class="about">
-        <h2>Седона - небольшой городок в аризоне, <br>заслуживающий большего!</h2>
+        <h2>Седона &mdash; небольшой городок в аризоне, заслуживающий большего!</h2>
         <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
       </div>
     
       <section class="reason clearfix">
-        <div class="reason-description col-33 col-left">
+        <div class="reason-description col-4 col">
           <h2>Настоящий<br>городок</h2>
-          <p>- №1 -</p>
+          <p>&mdash; №1 &mdash;</p>
           <p>Седона не атракцион для туристов, там течет своя жизнь</p>
         </div>
-        <div class="reason-image col-66 col-right">
-            <img src="img/city-768.jpg" alt="Sedona city">
+        <div class="reason-image col-8 col">
+            <img src="img/city-768.jpg" alt="Sedona city" width="512" height="256">
         </div>
       </section>
     
-    <section class="features-row clearfix">
-      <div class="feature-item col-33 col-left">
+    <section class="features clearfix">
+      <div class="feature-item col-4 col">
         <div class="feature-icon icon-house"></div>
         <h2>Жилье</h2>
-        <p>Рекомендуем пожить в настоящем мотеле, <br>все как в кино!</p>
+        <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
       </div>
-      <div class="feature-item col-33 col-left">
+      <div class="feature-item col-4 col">
         <div class="feature-icon icon-food"></div>
         <h2>Еда</h2>
-        <p>Всегда заказывайте фирменный бергер, <br>вы не разочаруетесь!</p>
+        <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
       </div>
-      <div class="feature-item col-33 col-left">
+      <div class="feature-item col-4 col">
         <div class="feature-icon icon-souvenir"></div>
         <h2>Сувениры</h2>
-        <p>Не только китайского, <br>но и местного производства!</p>
+        <p>Не только китайского, но и местного производства!</p>
       </div>
     </section>
     
     <section class="reason clearfix">
-      <div class="reason-image col-66 col-left">
-            <img src="img/bridge-768.jpg" alt="Devil's bridge">
+      <div class="reason-image col-8 col">
+            <img src="img/bridge-768.jpg" alt="Devil's bridge" width="512" height="256">
       </div>
-      <div class="reason-description col-33 col-right">
-        <h2>Там есть <br>мост дьявола</h2>
-        <p>- №2 -</p>
+      <div class="reason-description col-4 col">
+        <h2>Там есть мост дьявола</h2>
+        <p>&mdash; №2 &mdash;</p>
         <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
       </div>
     </section>
     
     <section class="reason-light clearfix">
-      <div class="reason-description col-33 col-left">
+      <div class="reason-description col-4 col">
         <h2>Небольшая <br>площадь</h2>
-        <p>- №3 -</p>
-        <p>Все достопримеча-<br>тельности находятся очень близко</p>
+        <p>&mdash; №3 &mdash;</p>
+        <p>Все достопримечательности находятся очень близко</p>
       </div>
-      <div class="reason-description col-33 col-left">
+      <div class="reason-description col-4 col">
         <h2>Красивая <br>дорога</h2>
-        <p>- №4 -</p>
+        <p>&mdash; №4 &mdash;</p>
         <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
       </div>
-      <div class="reason-description col-33 col-left">
+      <div class="reason-description col-4 col">
         <h2>Мало <br>туристов</h2>
-        <p>- №5 -</p>
+        <p>&mdash; №5 &mdash;</p>
         <p>Большинство едет в Гранд Каньон и толпится там</p>
       </div>
     </section>
     
     <section class="hotel-search">
       <h3>Заинтересовались?</h3>
-      <p>Укажите предполагаемые даты поездки<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-      <a href="#" class="btn-to-search">Поиск гостиницы в Седоне</a>
+      <p>Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+      <a href="form.html" class="btn-to-search">Поиск гостиницы в Седоне</a>
       <!-- Pop-up Search Form: start -->
       <form class="popup-form">
         <label class="label-in" for="date-in">Дата заезда:</label>
-        <input type="date" name="date-in" id="date-in" placeholder="24 апреля 2014" value="24 апреля 2014">
+        <input type="text" name="date-in" class="date-in" placeholder="24 апреля 2014" id="date-in" required>
          
         <label class="label-out" for="date-out">Дата выезда:</label>
-        <input type="date" name="date-out" id="date-out" placeholder="4 июля 2014">
+        <input type="text" name="date-out" class="date-out" placeholder="4 июля 2014" id="date-out" required>
           
         <label class="label-adult" for="adult">Взрослые:</label>
         <div class="count">
@@ -146,27 +146,33 @@
     
     <div class="map" id="map-canvas"></div>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
-     <script src="js/map.js"></script>
     </div>
   <!-- Main content of page finished -->
   
-  <!-- Footer started -->
-    <footer class="main-footer rubber-site clearfix">
-      <div class="footer-hashtag col-33 col-left">
+   <!-- Footer started -->
+    <footer class="rubber-site"> 
+     <div class="main-footer-transparent clearfix">
+      <div class="footer-hashtag col-4 col">
         <h2>#VISITSEDONA</h2>
       </div>
-      <div class="footer-social col-33 col-left">
+      <div class="footer-social col-4 col">
         <a href="#" class="social-btn social-btn-tw "><i class="icon-twitter"></i></a>
         <a href="#" class="social-btn social-btn-fb"><i class="icon-facebook"></i></a>
         <a href="#" class="social-btn social-btn-yt"><i class="icon-youtube"></i></a>
       </div>
-      <div class="footer-copyright col-33 col-right">
+      <div class="footer-copyright col-4 col">
         <span>WEBSITE BY</span>
         <a class ="copyright" href="#">
         </a>
       </div>
+      </div>
     </footer>
   <!-- Footer finished -->
+  
+  <script src="js/map.min.js"></script>
+  <script src="js/popup.min.js"></script>
+ 
+  
   
   
   </body>

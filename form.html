@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Поиск гостиницы</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Header with navigation started -->
+    <header class="rubber-site clearfix">
+      <nav class="main-navigation ">
+        <ul>
+          <li class="active">
+            <a href="#">Информация</a>
+          </li>
+          <li>
+            <a href="#">Фото и видео</a>
+          </li>
+          <li> </li>
+          <li>
+            <a href="#">Карта штата</a>
+          </li>
+          <li>
+            <a href="hotels.html">Гостиницы</a>
+          </li>
+        </ul>
+        <a class="logo" href="index.html">
+            <img src="img/logo.png" alt="logo 'city of Sedona'" width="138" height="70">
+        </a>
+      </nav>
+    </header>
+    <!-- Header finished -->
+    
+    <!-- Pop-up Search Form: start -->
+     <div class="popup rubber-site">
+      <form class="popup-form-pe">
+        <label class="label-in" for="date-in">Дата заезда:</label>
+        <input type="text" name="date-in" class="date-in" placeholder="24 апреля 2014" id="date-in" required>
+         
+        <label class="label-out" for="date-out">Дата выезда:</label>
+        <input type="text" name="date-out" class="date-out" placeholder="4 июля 2014" id="date-out" required>
+          
+        <label class="label-adult" for="adult">Взрослые:</label>
+        <div class="count">
+        <span class="minus"><i class="icon-minus"></i></span>
+        <input type="text" name="adult" id="adult" value="2">
+        <span class="plus"><i class="icon-plus"></i></span>
+        </div>
+        
+        <label class="label-child" for="child">Дети:</label>
+        <div class="count">
+        <span class="minus"><i class="icon-minus"></i></span>
+        <input type="text" name="child" id="child" value="0">
+        <span class="plus"><i class="icon-plus"></i></span>
+        </div>
+        
+        <input type="submit" value="Найти">
+      </form>
+      </div>  
+  <!-- Pop-up Search Form: finish -->
+    
+    
+    <!-- Footer started -->
+    <footer class="main-footer rubber-site clearfix">
+      <div class="footer-hashtag col-4 col">
+        <h2>#VISITSEDONA</h2>
+      </div>
+      <div class="footer-social col-4 col">
+        <a href="#" class="social-btn social-btn-tw "><i class="icon-twitter"></i></a>
+        <a href="#" class="social-btn social-btn-fb"><i class="icon-facebook"></i></a>
+        <a href="#" class="social-btn social-btn-yt"><i class="icon-youtube"></i></a>
+      </div>
+      <div class="footer-copyright col-4 col">
+        <span>WEBSITE BY</span>
+        <a class ="copyright" href="#">
+        </a>
+      </div>
+    </footer>
+  <!-- Footer finished -->
+  </body>
+</html>
