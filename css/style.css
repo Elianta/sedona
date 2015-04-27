@@ -190,8 +190,6 @@ h3{
             /* Box-model */
             margin-left: -69px;
             padding: 0;
-            /* Visual */
-            background-color: #81b3d2;
         }
         .main-navigation a.logo:active {
             opacity: 1;
@@ -244,8 +242,9 @@ h3{
     padding-top: 76px;
     width: 100%;
     /* Visual */
-    background: #e4f1fa url('../img/bg-welcome.jpg') no-repeat center center;
-    background-size: cover;
+    background: #e4f1fa url('../img/bg-welcome.jpg') no-repeat;
+    background-position: 50% -55px;
+    background-size:;
 }
 .welcome-screen:after {
     /* Position */
